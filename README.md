@@ -11,7 +11,9 @@ Permite que usuários se registrem, façam login, visualizem filmes e adicionem 
 - Prisma ORM  
 - Zod (validação)  
 - JWT (autenticação)  
-- dotenv  
+- dotenv
+- bcryptjs
+- nodemon
 - Arquitetura dividida em Controllers, Routes, Middlewares, Validators e Utils  
 
 ---
