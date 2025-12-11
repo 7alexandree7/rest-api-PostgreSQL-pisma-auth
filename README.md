@@ -18,6 +18,25 @@ Permite que usuários se registrem, façam login, visualizem filmes e adicionem 
 
 ## 📁 Estrutura de Pastas
 
+src/
+├── Controllers/
+│ ├── authController.js
+│ └── watchlistController.js
+├── dataBase/
+│ └── db.js
+├── middleware/
+│ ├── authMiddleware.js
+│ └── validateRequest.js
+├── routes/
+│ ├── authRoutes.js
+│ ├── moviesRoutes.js
+│ └── watchlistRoutes.js
+├── utils/
+│ └── ...
+├── validators/
+│ ├── userValidator.js
+│ └── watchlistValidator.js
+└── server.js
 
 ---
 
